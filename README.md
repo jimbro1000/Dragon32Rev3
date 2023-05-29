@@ -15,6 +15,14 @@ between two images using JP3.
 The video circuits have been isolated from the rest of the
 board to improve output quality.
 
+A second (internal) cartridge port has been added, by way of
+a 2x20 header, along with an additional +5V/Gnd pickup point
+for further internal expansion.
+
+An optional 256K banking solution is incorporated using the
+design for Stewart Orchard's upgrade board and GAL design.
+https://gitlab.com/sorchard001/dragon-256k-banker-board
+
 ## Progress ##
 
 In the current state (3.0) none of the board is tested. This
@@ -45,6 +53,11 @@ operate as a communication port for DRIVEWIRE.
 The board is configurable between 32k and 64k ram addressing
 using jumper JP1. In most scenarios there is no reason to
 disable the 64k option.
+
+The upgrade to 256K needs the 4164s swapping for 41256s. The
+pre-bridged jumper at JP6 needs cutting. The optional 
+components can then be fitted and should work without further
+alteration.
 
 ## Substitutions ##
 
