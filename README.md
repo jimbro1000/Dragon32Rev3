@@ -1,5 +1,7 @@
 # DRAGON 32 RECREATION Rev 3 #
 
+![Dragon 32 revision 3 render](Dragon32plus.png)
+
 This project started as a recreation of the SA2120 CPU Mainboard
 for the 1982 Dragon Data **Dragon 32**
 
@@ -32,7 +34,7 @@ for further internal expansion.
 
 An optional 256K banking solution is incorporated using the
 design for Stewart Orchard's upgrade board and GAL design.
-https://gitlab.com/sorchard001/dragon-256k-banker-board
+<https://gitlab.com/sorchard001/dragon-256k-banker-board>
 
 ## Progress ##
 
