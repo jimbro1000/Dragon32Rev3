@@ -10,10 +10,29 @@ goes all the extra circuitry for configuring the memory for
 different types of chip.
 
 The ROM is now a single 27C256 eprom with an option to switch
-between two images using JP3.
+between two images using JP6 or to allow the rom to be
+automatically selected from the PIA.
+
+A second ROM selection jumper is available at JP3 to be used
+when a 27C512 is fitted. This swaps the value to A15 between
+high and low. When a 27C256 is fitted this must be set low.
+
+Hidden on the back of the board is a solder pad jumper (JP7) that
+also needs setting to handle a 27C256 or 27C512. Bridging pad
+1 sets pin 22 of the rom to ground, using pad 3 sets the
+pin to use the ROM select signal shared with pin 20. When a
+27C512 is fitted this must be set to pad 1.
 
 The video circuits have been isolated from the rest of the
 board to improve output quality.
+
+A second (internal) cartridge port has been added, by way of
+a 2x20 header, along with an additional +5V/Gnd pickup point
+for further internal expansion.
+
+An optional 256K banking solution is incorporated using the
+design for Stewart Orchard's upgrade board and GAL design.
+https://gitlab.com/sorchard001/dragon-256k-banker-board
 
 ## Progress ##
 
@@ -45,6 +64,11 @@ operate as a communication port for DRIVEWIRE.
 The board is configurable between 32k and 64k ram addressing
 using jumper JP1. In most scenarios there is no reason to
 disable the 64k option.
+
+The upgrade to 256K needs the 4164s swapping for 41256s. The
+pre-bridged jumper at JP5 needs cutting. The optional
+components can then be fitted and should work without further
+alteration.
 
 ## Substitutions ##
 
