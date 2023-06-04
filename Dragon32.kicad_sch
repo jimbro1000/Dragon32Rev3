@@ -2239,6 +2239,23 @@
     )
   )
 
+  (sheet (at 359.918 184.15) (size 27.432 19.558) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d4992140-e6d4-47c2-bbea-36aced5bdb26)
+    (property "Sheetname" "PIA3" (at 359.918 183.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pia3.kicad_sch" (at 359.918 204.2926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Dragon32"
+        (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 330.073 184.15) (size 27.305 19.558) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
