@@ -73,6 +73,35 @@ to be replaced with a 74LS785. The optional
 components can then be fitted and should work without further
 alteration.
 
+### Video PIA ###
+
+One of the possible features of the board is to support an
+extended version of the video circuitry to include 
+external character ram. Adding a third PIA to the board takes
+a little refinement of how PIAs are interfaced. In this case
+the mapped memory for PIA1 is broken into 8 blocks, this first
+maps to the original memory space for PIA1 while the other 7 
+are effectively available to more registers. On this board
+only the first of those 7 is used (yet). This makes addresses
+$FF44-$FF47 map to the new PIA (referenced here as 1b).
+
+Register A of PIA1b is control of additional functions  
+bit 0 controls internal or external character image generation  
+bit 1 controls automatic invert on bit 6 of the data bus  
+bit 2 is manual control of the invert signal  
+bit 3 controls automatic semigraphics on bit 7 of the data bus  
+bit 4 is manual control of the semigraphics signal  
+bit 5 opens the external character ram to writing  
+bit 6 is a clock trigger to the external character ram address  
+bit 7 is unused (proposed to be CoCo compatibility switch for 
+the keyboard)  
+
+Register B of PIA1b is used for programming the external
+character ram data.
+
+The external character ram can only be programmed while the
+video is set to the internal character data of the 6847.
+
 ## Substitutions ##
 
 Many of the original components are simply unobtainable or
