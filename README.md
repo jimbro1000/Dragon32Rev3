@@ -68,9 +68,39 @@ using jumper JP1. In most scenarios there is no reason to
 disable the 64k option.
 
 The upgrade to 256K needs the 4164s swapping for 41256s. The
-pre-bridged jumper at JP5 needs cutting. The optional
+pre-bridged jumper at JP5 needs cutting. The SAM also needs 
+to be replaced with a 74LS785. The optional
 components can then be fitted and should work without further
 alteration.
+
+### Video PIA ###
+
+One of the possible features of the board is to support an
+extended version of the video circuitry to include 
+external character ram. Adding a third PIA to the board takes
+a little refinement of how PIAs are interfaced. In this case
+the mapped memory for PIA1 is broken into 8 blocks, this first
+maps to the original memory space for PIA1 while the other 7 
+are effectively available to more registers. On this board
+only the first of those 7 is used (yet). This makes addresses
+$FF44-$FF47 map to the new PIA (referenced here as 1b).
+
+Register A of PIA1b is control of additional functions  
+bit 0 controls internal or external character image generation  
+bit 1 controls automatic invert on bit 6 of the data bus  
+bit 2 is manual control of the invert signal  
+bit 3 controls automatic semigraphics on bit 7 of the data bus  
+bit 4 is manual control of the semigraphics signal  
+bit 5 opens the external character ram to writing  
+bit 6 is a clock trigger to the external character ram address  
+bit 7 is unused (proposed to be CoCo compatibility switch for 
+the keyboard)  
+
+Register B of PIA1b is used for programming the external
+character ram data.
+
+The external character ram can only be programmed while the
+video is set to the internal character data of the 6847.
 
 ## Substitutions ##
 
@@ -80,54 +110,23 @@ will need modern substitutes as the BC141, BC212 and 2N2369
 are all obsolete but thankfully these are fairly run-of-the-mill
 transistors and shouldn't cause any particular issues.
 
-The video op-amp SFC2318D at position IC10 is especially
-hard to find and this one component can easily double the
-price of populating the board if an original is used...
-I've identified a Harris HA-5111 as a likely candidate, it
-is an audio op-amp rated for upto 40MHz so plenty of
-bandwitdh for a simple PAL/NTSC video signal. There are of
-course lots of other single channel op-amps out there in a
-dip-8 format but they tend to be expensive (as in *really*
-expensive) possibly cheaper than a real 2318D but not by
-much, some are stupidly expensive (nearly 100x that
-2318D). The HA-5111 should be about £0.90
-
-The CPU, SAM, PIAs and VDG are all fairly easy to obtain online
+The CPU and PIAs are all fairly easy to obtain online
 and possibly even new (MC6821s are still made and there
 are lots of compatible alternatives). A and B rated components
 should all be usable but make sure the processor is an "09e".
 The Hitachi HD6309 is usable but may cause crashes in some
-software due to lazy coding
-
-The 4000 series logic chips are particularly tricky - some
-have modern equivalents. The MC14053 and MC14050 can be
-replaced with modern CD4000 series chips. The MC14529
-was replaced with a CD4000 series logic chip but even that
-is now obsolete with no valid replacement
-
-The LM1889 is another hard to find chip but still reasonably
-cheap online when found.
+software due to lazy coding.
 
 ### The Future ###
 
 As these parts become harder to find it is inevitable that
-replacements and redesigns will be needed. Abandoning the
-original composite video output circuits and moving to a
-(more) modern RGB or VGA output instead removes a big
-chunk of the more troublesome hardware, notably the LM1889
-and SFC2318 along with a number of other common logic chips.
-If a composite output is still required an ADR724J can be
-used to generate the necessary signal, all in one chip
-
-A cheat replacement for the 6847 exists, using a raspberry
-pi pico but this could easily be reduced even further an
-FPGA (assuming such chips are readily available again).
-
-The one thing that isn't so quickly removed from the
-equation is that MC14529 - a dual 4-channel data
-selector. Onsemi and Harris used to made the CD4529
-that replaced the original MC14529 and it is only fairly
-recently that the chip became obsolete so there is
-stock out there but the chip is somewhat specialised and
-as such really isnt easily substituted even with a modern
-SMD package.
+replacements and redesigns will be needed. The most obvious
+of these is the SAM chip. In 2023 these are pretty much
+unobtainable without harvesting from another Dragon or CoCo.
+In order to be viable the SAMs functionality needs to be
+replicated in a modern CPLD, this opens up an opportunity
+to incorporate the memory paging into a single chip, 
+further reducing complexity on the board. In order to use
+the ram banking the SAM already needs to be replaced with
+a 74LS785, some supply of these does still exist but the
+numbers are painfully small.
