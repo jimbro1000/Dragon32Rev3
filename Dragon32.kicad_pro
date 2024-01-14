@@ -1,6 +1,26 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "zoom 1st",
+        "ww": 1.0,
+        "wx": -6.350461006164551,
+        "wy": 3.674687147140503,
+        "wz": -6.7855610847473145,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": 0.0,
+        "zz": 1.0
+      }
+    ],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -46,7 +66,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -57,10 +77,7 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_issues|279114752|192453699|40541b21-6742-47b8-9d6d-b55652d8d045|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|164973000|38227000|e8dd68b7-4ccc-498b-ae57-b1aad457292f|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|286816800|173101000|6ef139b4-3ba3-4cdc-b888-89de3792c315|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|298577000|113258600|d2c08fc1-967b-4f67-91b3-06ac4a62848f|c2b3b382-a3c5-4c27-b921-5fab2685a32d|F.Cu"
+        "lib_footprint_issues|279114752|192453699|40541b21-6742-47b8-9d6d-b55652d8d045|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
