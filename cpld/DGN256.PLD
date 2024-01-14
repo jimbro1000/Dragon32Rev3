@@ -1,0 +1,129 @@
+Name     DGN256 ;
+PartNo    ;
+Date     31/03/2021 ;
+Revision 01 ;
+Designer S.Orchard ;
+Company   ;
+Assembly None ;
+Location  ;
+Device   G22V10;
+
+
+/*
+  256K banked memory controller for Dragon 32/64.
+  
+  Provides 4 banks each for lower and upper 32K regions.
+  Generates extra z8 signal for 41256 dram ics.
+  Requires a 74LS785 for proper 256 row refresh.
+  (74LS783 may work, relying on out of spec refresh from vdg reads)
+
+  dsd output is used to disable ls138 decoder.
+  This allows the bank registers to be placed at ff30-ff3f
+  
+  colsel signal is inverted ras delayed by approx 30-75ns.
+  This can be achieved by propagation delay through three inverting LSTTL gates.
+
+  Inverted q clock is required for register updates. Cannot use e clock
+  because LS785 forces s0..s2 high when (e=0)&(q=1) for rom accesses.
+*/
+
+
+/* INPUT PINS */
+
+PIN 1  = nq;	/* inverted q clock */
+PIN 2  = colsel;  /* ras inverted and delayed 30-75ns */
+PIN 3  = e;
+PIN 4  = a15;
+PIN 5  = rnw;
+PIN 6  = s0;
+PIN 7  = a0;
+PIN 8  = s1;
+PIN 9  = a1;
+PIN 10 = a2;
+PIN 11 = a4;
+
+PIN 13 = a3;
+PIN 14 = s2;
+
+PIN 23 = !reset;
+
+
+/* OUTPUT PINS */
+
+
+PIN 15 = ba0_L;     /* lower 32K bank reg bit 0 */
+PIN 16 = ba1_L;     /* lower 32K bank reg bit 1 */
+PIN 17 = ba0_H;     /* upper 32K bank reg bit 0 */
+PIN 18 = ba1_H;     /* upper 32K bank reg bit 1 */
+PIN 19 = vid_bnk0;  /* video bank mode reg */
+
+PIN 21 = dsd;       /* disable devices */
+PIN 22 = z8;        /* dram z8 */
+
+/******************* LOGIC ************************/
+
+$define w_reg0 (!rnw & s0 & !s1 & s2 & a4 & !a3 & !a2)
+$define w_reg4 (!rnw & s0 & !s1 & s2 & a4 & !a3 & a2)
+$define w_reg8 (!rnw & s0 & !s1 & s2 & a4 & a3)
+
+/* Set lower 32K bank on write ff30-ff33 */
+
+ba0_L.D = a0 & w_reg0
+        # ba0_L & !w_reg0;
+
+ba1_L.D = a1 & w_reg0
+        # ba1_L & !w_reg0;
+
+/* Set upper 32K bank on write ff34-ff37 */
+
+ba0_H.D = a0 & w_reg4
+        # ba0_H & !w_reg4;
+
+ba1_H.D = a1 & w_reg4
+        # ba1_H & !w_reg4;
+
+
+/*
+  Set vdg bank mode on write ff38/9
+  ff38 = clear (vdg bank = lower 32k mpu bank)
+  ff39 = set (vdg bank fixed at 0)
+*/
+vid_bnk0.D = a0 & w_reg8
+           # vid_bnk0 & !w_reg8;
+
+
+/*
+  Generate signal to disable devices on access to bank registers
+*/
+dsd = 'b'0;
+dsd.oe = s0 & !s1 & s2 & a4;
+/* dsd.oe = w_reg0 # w_reg4 # w_reg8 */
+
+/*
+  Mux bank selections to z8
+*/
+z8 =  e & !colsel & !a15 & ba0_L        /* mpu lower 32k, row */
+   #  e &  colsel & !a15 & ba1_L        /* mpu lower 32k, col */
+   #  e & !colsel &  a15 & ba0_H        /* mpu upper 32k, row */
+   #  e &  colsel &  a15 & ba1_H        /* mpu upper 32k, col */
+   # !e & !colsel & ba0_L & !vid_bnk0   /* vdg row */
+   # !e &  colsel & ba1_L & !vid_bnk0;  /* vdg col */
+
+
+/*
+  Reset registers
+*/
+ba0_L.AR = reset;
+ba1_L.AR = reset;
+ba0_H.AR = reset;
+ba1_H.AR = reset;
+vid_bnk0.AR = reset;
+
+/*
+  Assign unused sync preset inputs to suppress warnings
+*/
+ba0_L.SP = 'b'0;
+ba1_L.SP = 'b'0;
+ba0_H.SP = 'b'0;
+ba1_H.SP = 'b'0;
+vid_bnk0.SP = 'b'0;
