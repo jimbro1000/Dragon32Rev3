@@ -73,6 +73,9 @@ to be replaced with a 74LS785. The optional
 components can then be fitted and should work without further
 alteration.
 
+The required JED file for the GAL22V10 that drives the memory
+banking is in the CPLD folder of the project.
+
 ### Video PIA ###
 
 One of the possible features of the board is to support an
@@ -102,6 +105,9 @@ character ram data.
 The external character ram can only be programmed while the
 video is set to the internal character data of the 6847.
 
+The third PIA can be repurposed for other uses and accessible
+through the same connector block. Not all PIA pins are exposed
+
 ## Substitutions ##
 
 Many of the original components are simply unobtainable or
@@ -117,16 +123,38 @@ should all be usable but make sure the processor is an "09e".
 The Hitachi HD6309 is usable but may cause crashes in some
 software due to lazy coding.
 
+Ciaran Anscomb's samX4 can be used to replace the SAM
+chip and can be configured to operate as a 74LS783 or a
+74LS785 to suit.
+
 ### The Future ###
 
 As these parts become harder to find it is inevitable that
-replacements and redesigns will be needed. The most obvious
-of these is the SAM chip. In 2023 these are pretty much
-unobtainable without harvesting from another Dragon or CoCo.
-In order to be viable the SAMs functionality needs to be
-replicated in a modern CPLD, this opens up an opportunity
-to incorporate the memory paging into a single chip, 
-further reducing complexity on the board. In order to use
-the ram banking the SAM already needs to be replaced with
-a 74LS785, some supply of these does still exist but the
-numbers are painfully small.
+replacements and redesigns will be needed. After much hard
+work by the Dragon and CoCo community the *only* IC on the
+board now that is not still made or in plentiful supply is
+the MC6847 VDG (the LM1889 on the PAL board is also in
+limited supply).
+
+The Hitachi HD6309 has been in production until recently due
+to military supply contracts making it easily accessible and
+at reasonable cost. Ultimately this will diminish but with
+supplies still high it seems likely to be available for a long
+time yet.
+
+The MC6821 is available new but at eye watering prices as
+it is only made in small batches. The WD65C21 is a direct
+swap and in much higher supply making it generally cheaper
+than remaining original NOS parts.
+
+The LS and CD discrete logic chips are all generally easy
+to obtain and all have more modern equivalents that can be
+swapped in.
+
+Some searching may be needed for the cartridge port connector.
+A direct replacement part is listed in the EDAC catalogue but
+is only made to demand which requires an order of some 200
+units. Lower quality but compatible parts can be found online.
+
+Ultimately all of the parts will become hard to obtain but
+for the foreseeable future the board should remain viable.
