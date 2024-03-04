@@ -837,10 +837,10 @@
   )
 
 
-  (no_connect (at 167.64 168.91) (uuid 2a8ad05a-116d-433c-95ff-fdf7b4d9237d))
   (no_connect (at 123.19 116.84) (uuid 3cfb6d7e-e8b8-40fb-a85f-e19735b1d3e7))
   (no_connect (at 123.19 121.92) (uuid 73329235-53db-4a77-b477-e8a80428d12d))
   (no_connect (at 123.19 119.38) (uuid 8e476009-570b-4c97-bc7b-b99aca89ef97))
+  (no_connect (at 137.1092 165.4048) (uuid a34d8b72-d988-4dc6-8eb6-1474dd614895))
   (no_connect (at 124.4092 190.8048) (uuid adf2904a-cc15-46cf-a477-dfe92331b7b7))
 
   (global_label "DO5" (shape input) (at 124.4092 180.6448 180) (fields_autoplaced)
@@ -1417,39 +1417,6 @@
     )
   )
 
-  (symbol (lib_id "power:-5V") (at 137.1092 165.4048 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cb0472fa-0def-4206-99d5-e3f0ec680e21)
-    (property "Reference" "#PWR064" (at 139.6492 165.4048 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-5V" (at 140.9192 166.0398 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 137.1092 165.4048 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 137.1092 165.4048 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c1ff150a-9353-4463-a294-a0e792040e24))
-    (instances
-      (project "Dragon32"
-        (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb"
-          (reference "#PWR064") (unit 1)
-        )
-        (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb/d9dba8db-e731-4cb4-b2de-fefd65b288bc"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-      (project "DragonNTSC"
-        (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 130.81 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f47a0caa-2164-43ba-aa98-8396c41a8502)
@@ -1548,6 +1515,31 @@
       (project "Dragon32"
         (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb/d9dba8db-e731-4cb4-b2de-fefd65b288bc"
           (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:-5V") (at 167.64 168.91 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f7081a9c-ba06-4ce8-9fa5-35a3867331e9)
+    (property "Reference" "#PWR048" (at 170.18 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "-5V" (at 174.752 168.91 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 167.64 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 070017db-0fbb-48ad-b015-1ffbcb84f0c6))
+    (instances
+      (project "Dragon32"
+        (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb/d9dba8db-e731-4cb4-b2de-fefd65b288bc"
+          (reference "#PWR048") (unit 1)
         )
       )
     )
