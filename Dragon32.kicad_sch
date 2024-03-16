@@ -2205,6 +2205,23 @@
     )
   )
 
+  (sheet (at 266.7 210.82) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 73ef4268-4aa5-4086-b2e3-959bfba17059)
+    (property "Sheetname" "Audio" (at 266.7 210.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch" (at 266.7 229.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Dragon32"
+        (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 299.466 151.765) (size 27.686 22.606) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
