@@ -1,6 +1,6 @@
 # DRAGON 32 RECREATION Rev 3 #
 
-![Dragon 32 revision 3 render](Dragon32plus.png)
+![Dragon 32 revision 3 render](Dragon32.png)
 
 This project started as a recreation of the SA2120 CPU Mainboard
 for the 1982 Dragon Data **Dragon 32**
@@ -38,9 +38,8 @@ design for Stewart Orchard's upgrade board and GAL design.
 
 ## Progress ##
 
-In the current state (3.0) none of the board is tested. This
-is purely experimental although the schematics have been
-tested with the previous rev 2 board and are largely unchanged.
+In the current state (3.0) none of the board is tested except
+for the additional audio capabilities.
 
 ## Modifications ##
 
@@ -69,44 +68,35 @@ disable the 64k option.
 
 The upgrade to 256K needs the 4164s swapping for 41256s. The
 pre-bridged jumper at JP5 needs cutting. The SAM also needs 
-to be replaced with a 74LS785. The optional
-components can then be fitted and should work without further
-alteration.
+to be replaced with a 74LS785. The optional components can 
+then be fitted and should work without further alteration.
 
 The required JED file for the GAL22V10 that drives the memory
 banking is in the CPLD folder of the project.
 
-### Video PIA ###
+### Video Port ###
 
-One of the possible features of the board is to support an
-extended version of the video circuitry to include 
-external character ram. Adding a third PIA to the board takes
-a little refinement of how PIAs are interfaced. In this case
-the mapped memory for PIA1 is broken into 8 blocks, this first
-maps to the original memory space for PIA1 while the other 7 
-are effectively available to more registers. On this board
-only the first of those 7 is used (yet). This makes addresses
-$FF44-$FF47 map to the new PIA (referenced here as 1b).
+The board includes a third connector for the video mezzanine
+card. This exposes the video board to the CPU side of the
+data bus along with control signals that would permit 
+programming of the video for additional features. With a 
+stock 6847 that might be to include a programmable character
+"rom" but I'm also working on a synthetic FPGA based replacement
+for the 6847 that will allow much bigger changes such as 
+swappable/programmable colour palettes.
 
-Register A of PIA1b is control of additional functions  
-bit 0 controls internal or external character image generation  
-bit 1 controls automatic invert on bit 6 of the data bus  
-bit 2 is manual control of the invert signal  
-bit 3 controls automatic semigraphics on bit 7 of the data bus  
-bit 4 is manual control of the semigraphics signal  
-bit 5 opens the external character ram to writing  
-bit 6 is a clock trigger to the external character ram address  
-bit 7 is unused (proposed to be CoCo compatibility switch for 
-the keyboard)  
+### Audio ###
 
-Register B of PIA1b is used for programming the external
-character ram data.
+The board provides a position to mount a custom implementation
+of the AY sound generator. This provides three channels of 
+synthesised sound without using the CPU intensive system that
+the Dragon comes with by default. The capabilities are the same
+as those of the Spectrum 128 models. You can even mix the old
+and new methods of sound generation to create more noise!
 
-The external character ram can only be programmed while the
-video is set to the internal character data of the 6847.
-
-The third PIA can be repurposed for other uses and accessible
-through the same connector block. Not all PIA pins are exposed
+Theoretically other sound generators could be used but the AY
+option provides a cheap, capable mechanism that follows a 
+standard familiar to users of other computers from the era.
 
 ## Substitutions ##
 
@@ -132,9 +122,9 @@ chip and can be configured to operate as a 74LS783 or a
 As these parts become harder to find it is inevitable that
 replacements and redesigns will be needed. After much hard
 work by the Dragon and CoCo community the *only* IC on the
-board now that is not still made or in plentiful supply is
+required, that is not still made or in plentiful supply is
 the MC6847 VDG (the LM1889 on the PAL board is also in
-limited supply).
+limited supply but there are ways around the issue).
 
 The Hitachi HD6309 has been in production until recently due
 to military supply contracts making it easily accessible and
