@@ -5975,6 +5975,12 @@
 		(uuid "09707e39-5d11-4af7-8b0e-5fd861462a3c")
 	)
 	(junction
+		(at 274.78 52.4585)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2349759f-603d-450b-929d-6c15784fcee3")
+	)
+	(junction
 		(at 66.929 24.638)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5987,7 +5993,7 @@
 		(uuid "37439e50-4c39-43e7-9e9c-3587a47d9885")
 	)
 	(junction
-		(at 230.632 132.588)
+		(at 295.91 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d84920-c0ae-4f94-84dd-672836a0097b")
@@ -6005,10 +6011,22 @@
 		(uuid "4cedd2c1-5c8b-4cd3-8526-93b98a279446")
 	)
 	(junction
-		(at 245.872 132.588)
+		(at 311.15 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f9a28d5-9c1f-4bb0-bb37-798bf9dc5fde")
+	)
+	(junction
+		(at 280.67 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52806b4a-2054-4ee3-8246-e939af7801e1")
+	)
+	(junction
+		(at 280.67 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b159f96-09e8-428c-bf4d-5f455a93ca04")
 	)
 	(junction
 		(at 89.789 163.576)
@@ -6200,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.938 39.751) (xy 262.636 39.751)
+			(xy 266.4015 39.7557) (xy 262.636 39.751)
 		)
 		(stroke
 			(width 0)
@@ -6330,6 +6348,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 66.04) (xy 274.7912 66.0624)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f521e0c-2c9e-4b08-bbb0-ff1b84885f33")
+	)
+	(wire
+		(pts
 			(xy 65.913 24.638) (xy 66.929 24.638)
 		)
 		(stroke
@@ -6337,6 +6365,16 @@
 			(type default)
 		)
 		(uuid "351f922e-39c4-4e2d-9998-3b67c61870dc")
+	)
+	(wire
+		(pts
+			(xy 262.6164 169.6706) (xy 259.842 169.672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433e0523-14c6-49bb-9138-9fc394d5b772")
 	)
 	(wire
 		(pts
@@ -6390,17 +6428,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.0487 52.4632) (xy 266.0487 52.451)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "542c7269-4d1e-439b-858e-f9cfda321325")
-	)
-	(wire
-		(pts
-			(xy 265.938 32.131) (xy 262.636 32.131)
+			(xy 266.4015 32.1357) (xy 262.636 32.131)
 		)
 		(stroke
 			(width 0)
@@ -6430,7 +6458,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.392 130.048) (xy 215.392 135.128)
+			(xy 280.67 63.5) (xy 280.67 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6500,7 +6528,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.938 34.671) (xy 262.636 34.671)
+			(xy 266.4015 34.6757) (xy 262.636 34.671)
 		)
 		(stroke
 			(width 0)
@@ -6510,7 +6538,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.632 130.048) (xy 230.632 132.588)
+			(xy 295.91 63.5) (xy 295.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6560,7 +6588,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.872 132.588) (xy 245.872 135.382)
+			(xy 311.15 66.04) (xy 311.15 68.834)
 		)
 		(stroke
 			(width 0)
@@ -6590,7 +6618,17 @@
 	)
 	(wire
 		(pts
-			(xy 265.938 44.831) (xy 262.636 44.831)
+			(xy 280.67 72.39) (xy 284.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850840a0-0798-476c-99a0-99ccd387e407")
+	)
+	(wire
+		(pts
+			(xy 266.4015 44.8357) (xy 262.636 44.831)
 		)
 		(stroke
 			(width 0)
@@ -6630,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.938 37.211) (xy 262.636 37.211)
+			(xy 266.4015 37.2157) (xy 262.636 37.211)
 		)
 		(stroke
 			(width 0)
@@ -6650,6 +6688,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.78 52.4585) (xy 257.556 52.451)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9624e2f6-3fef-4ba0-9fb0-aa9697e4dcba")
+	)
+	(wire
+		(pts
 			(xy 152.273 85.471) (xy 153.289 85.471)
 		)
 		(stroke
@@ -6657,6 +6705,16 @@
 			(type default)
 		)
 		(uuid "9bcc7176-30fd-4208-8e98-546a5520e8ef")
+	)
+	(wire
+		(pts
+			(xy 274.78 52.4585) (xy 276.4864 52.4585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd916e4-1a9e-4692-8502-244769eac10e")
 	)
 	(wire
 		(pts
@@ -6680,6 +6738,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.4063 169.672) (xy 267.6964 169.6706)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60818eb-05ef-4c5e-8284-70dc5eb65b84")
+	)
+	(wire
+		(pts
 			(xy 14.478 24.638) (xy 24.257 24.638)
 		)
 		(stroke
@@ -6690,13 +6758,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.872 130.302) (xy 245.872 132.588)
+			(xy 311.15 63.754) (xy 311.15 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af6fd0a5-b373-4567-8593-9d967fb2140b")
+	)
+	(wire
+		(pts
+			(xy 274.78 52.4585) (xy 274.7912 66.0624)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9e6be3-3d07-43e0-ad03-4d0b0df17a63")
 	)
 	(wire
 		(pts
@@ -6760,16 +6838,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.0487 52.451) (xy 262.636 52.451)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ced9b357-bea8-457f-ba88-0a1c5bc3544c")
-	)
-	(wire
-		(pts
 			(xy 220.726 75.311) (xy 221.742 75.311)
 		)
 		(stroke
@@ -6777,6 +6845,16 @@
 			(type default)
 		)
 		(uuid "cfae42e1-f97f-4122-9057-bd03c4d236d8")
+	)
+	(wire
+		(pts
+			(xy 266.0311 49.9144) (xy 262.636 49.911)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d350c8cd-0ba3-49c7-a739-34b4bdeaf531")
 	)
 	(wire
 		(pts
@@ -6820,6 +6898,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.126 52.4585) (xy 281.5664 52.4585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df42417c-6064-4183-8a4f-8a2201457545")
+	)
+	(wire
+		(pts
 			(xy 66.929 24.638) (xy 67.945 24.638)
 		)
 		(stroke
@@ -6830,7 +6918,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.632 132.588) (xy 230.632 135.128)
+			(xy 295.91 66.04) (xy 295.91 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6870,7 +6958,27 @@
 	)
 	(wire
 		(pts
-			(xy 265.938 29.591) (xy 262.636 29.591)
+			(xy 280.67 68.58) (xy 280.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f91e67-b32f-4e9d-8148-8a03ee387db7")
+	)
+	(wire
+		(pts
+			(xy 280.67 66.04) (xy 280.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5956ec2-2c63-4a30-8260-77192cc93e83")
+	)
+	(wire
+		(pts
+			(xy 266.4015 29.5957) (xy 262.636 29.591)
 		)
 		(stroke
 			(width 0)
@@ -6880,7 +6988,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.938 42.291) (xy 262.636 42.291)
+			(xy 266.4015 42.2957) (xy 262.636 42.291)
 		)
 		(stroke
 			(width 0)
@@ -7174,28 +7282,6 @@
 			)
 		)
 	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 45.593 85.344 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0659402e-b91c-42f7-9bed-49586ad4c507")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3234 85.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Z0"
 		(shape input)
 		(at 153.289 28.575 180)
@@ -7242,7 +7328,7 @@
 	)
 	(global_label "~{RAS0}"
 		(shape output)
-		(at 266.0487 52.4632 0)
+		(at 287.126 52.4585 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7252,7 +7338,7 @@
 		)
 		(uuid "08802bbe-5619-4ced-ac60-395eb2a29abc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.1505 52.3838 0)
+			(at 294.2278 52.3791 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,6 +7480,28 @@
 			)
 		)
 	)
+	(global_label "Z7"
+		(shape input)
+		(at 88.265 85.344 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e647574-ee30-4bf7-be63-9c8d9ba9cfc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.015 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{DSD}"
 		(shape input)
 		(at 99.314 167.894 180)
@@ -7412,28 +7520,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 168.148 146.431 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10199afb-3a39-4c14-bfe2-e4b36dec442b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.8784 146.3516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7702,9 +7788,31 @@
 			)
 		)
 	)
+	(global_label "~{RAS}"
+		(shape output)
+		(at 284.48 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29374d6a-1634-4d75-ae3a-2209d081a062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.3791 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Z8"
 		(shape output)
-		(at 264.922 169.672 0)
+		(at 271.4063 169.672 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7714,7 +7822,7 @@
 		)
 		(uuid "29961070-fda1-428d-a5f3-616b1adc70e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.5926 169.672 0)
+			(at 276.0769 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,6 +7898,28 @@
 			)
 		)
 	)
+	(global_label "Z7"
+		(shape input)
+		(at 88.265 24.638 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fdbd9b8-f3fe-443c-b704-efeb1e9c58c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.015 24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Z2"
 		(shape input)
 		(at 110.617 33.655 180)
@@ -7813,8 +7943,8 @@
 		)
 	)
 	(global_label "Z7"
-		(shape input)
-		(at 257.556 49.911 0)
+		(shape output)
+		(at 266.0311 49.9144 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7824,7 +7954,7 @@
 		)
 		(uuid "32308cda-e2fd-4456-87f4-ad1ac478f2e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.2992 49.8316 0)
+			(at 270.7743 49.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,8 +8097,8 @@
 		)
 	)
 	(global_label "Z3"
-		(shape input)
-		(at 265.938 37.211 0)
+		(shape output)
+		(at 266.4015 37.2157 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7978,7 +8108,7 @@
 		)
 		(uuid "3a6e1b00-aa08-416c-85dc-bf006b0a4a78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.6812 37.1316 0)
+			(at 271.1447 37.1363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,28 +8136,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 45.593 24.638 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3eb5c064-a8de-48b5-a33e-1685b7644bd5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3234 24.5586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8375,28 +8483,6 @@
 		(uuid "558f755d-004e-41a6-94fe-b2afe107b17f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.7595 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 130.937 85.471 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "565fe2c1-2578-4c56-9ae0-cdc148ec5895")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6674 85.3916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,28 +8998,6 @@
 			)
 		)
 	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 173.609 24.765 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ecb149e-b1c0-4418-9084-82deecd7d007")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3394 24.6856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D5"
 		(shape bidirectional)
 		(at 67.945 108.204 180)
@@ -9154,6 +9218,28 @@
 			)
 		)
 	)
+	(global_label "Z7"
+		(shape input)
+		(at 173.609 24.765 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8163373c-ddb5-4d0b-8f6a-7970711e3492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.359 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D7"
 		(shape bidirectional)
 		(at 153.289 108.331 180)
@@ -9260,6 +9346,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z7"
+		(shape input)
+		(at 130.937 24.765 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86815c51-95d1-4dfb-b61b-3d45d0773525")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.687 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9726,28 +9834,6 @@
 			)
 		)
 	)
-	(global_label "Z7"
-		(shape input)
-		(at 163.068 146.431 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e6cc41f-ebc6-4c8a-9b16-c093f0775698")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.3248 146.3516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "A7"
 		(shape output)
 		(at 232.156 47.371 180)
@@ -9832,6 +9918,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z7"
+		(shape input)
+		(at 173.609 85.471 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a49d87e5-1818-4a3c-bbeb-90a2c7a700b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.359 85.471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10144,28 +10252,6 @@
 			)
 		)
 	)
-	(global_label "~{RAS0}"
-		(shape input)
-		(at 215.392 132.588 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4832fae-2b49-41da-a305-33a59b9a6690")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.3628 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D3"
 		(shape bidirectional)
 		(at 153.289 47.625 180)
@@ -10234,7 +10320,7 @@
 	)
 	(global_label "COLSEL"
 		(shape output)
-		(at 261.112 132.842 0)
+		(at 326.39 66.294 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10244,7 +10330,7 @@
 		)
 		(uuid "b68f503e-825d-46f8-9d56-1044b7bd1df8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.3788 132.842 0)
+			(at 335.6568 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,6 +10406,28 @@
 			)
 		)
 	)
+	(global_label "Z7"
+		(shape input)
+		(at 45.593 85.344 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9fbcdeb-befb-4574-a6bf-1558043bfab1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.343 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A15"
 		(shape input)
 		(at 229.362 174.752 180)
@@ -10338,28 +10446,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 173.609 85.471 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc3c701d-8985-4cfa-a9bc-02ae285251a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3394 85.3916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10465,6 +10551,28 @@
 		(uuid "c50428a7-e04d-4485-a41d-8e802925b43a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.8097 156.1306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z7"
+		(shape input)
+		(at 130.937 85.471 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6f5b88d-f1a6-4acd-9f71-30e17b89c1dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.687 85.471 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,8 +10781,8 @@
 		)
 	)
 	(global_label "Z4"
-		(shape input)
-		(at 265.938 39.751 0)
+		(shape output)
+		(at 266.4015 39.7557 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10684,7 +10792,29 @@
 		)
 		(uuid "d08f9431-ef8a-42b7-a850-bcd8bb770f1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.6812 39.6716 0)
+			(at 271.1447 39.6763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z7"
+		(shape input)
+		(at 45.593 24.638 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1738092-c4d8-4dad-a81a-919cd4b728de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.343 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,28 +10956,6 @@
 			)
 		)
 	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 88.265 24.638 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8094bf5-e1d9-4eca-8c89-d6f892faa411")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9954 24.5586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Z6"
 		(shape input)
 		(at 67.945 104.394 180)
@@ -10915,8 +11023,8 @@
 		)
 	)
 	(global_label "Z0"
-		(shape input)
-		(at 265.938 29.591 0)
+		(shape output)
+		(at 266.4015 29.5957 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10926,7 +11034,7 @@
 		)
 		(uuid "deba7d89-f9a2-4354-82a6-0d3192f950f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.6812 29.5116 0)
+			(at 271.1447 29.5163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,8 +11199,8 @@
 		)
 	)
 	(global_label "Z6"
-		(shape input)
-		(at 265.938 44.831 0)
+		(shape output)
+		(at 266.4015 44.8357 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11102,7 +11210,7 @@
 		)
 		(uuid "e82e6c3a-dba3-44b6-823e-2bd844f08cca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.6812 44.7516 0)
+			(at 271.1447 44.7563 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,31 +11242,9 @@
 			)
 		)
 	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 130.937 24.765 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e89bc28b-77d4-4837-8b2c-c4d3368a5e02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6674 24.6856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Z5"
-		(shape input)
-		(at 265.938 42.291 0)
+		(shape output)
+		(at 266.4015 42.2957 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11168,29 +11254,7 @@
 		)
 		(uuid "ecff6837-a08b-483d-9647-9310dfc674e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.6812 42.2116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RAM VCC"
-		(shape passive)
-		(at 88.265 85.344 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed626093-73ac-45d4-847f-507fa3e9e1ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9954 85.2646 0)
+			(at 271.1447 42.2163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11333,8 +11397,8 @@
 		)
 	)
 	(global_label "Z2"
-		(shape input)
-		(at 265.938 34.671 0)
+		(shape output)
+		(at 266.4015 34.6757 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11344,7 +11408,7 @@
 		)
 		(uuid "f68ae795-1f05-4a39-94cd-eb3e2d140979")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.6812 34.5916 0)
+			(at 271.1447 34.5963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,8 +11529,8 @@
 		)
 	)
 	(global_label "Z1"
-		(shape input)
-		(at 265.938 32.131 0)
+		(shape output)
+		(at 266.4015 32.1357 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11476,7 +11540,7 @@
 		)
 		(uuid "facfc131-66c7-4b5b-b59f-7d81e0c94438")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.6812 32.0516 0)
+			(at 271.1447 32.0563 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11882,7 +11946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 238.2012 158.496 0)
 			(effects
 				(font
@@ -12044,7 +12108,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS132")
-		(at 238.252 132.588 0)
+		(at 303.53 66.04 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12053,7 +12117,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c2b6d0b-2c73-4a51-adaa-4697664924d9")
 		(property "Reference" "IC36"
-			(at 238.2437 124.46 0)
+			(at 303.5217 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12061,7 +12125,7 @@
 			)
 		)
 		(property "Value" "74LS132"
-			(at 238.2437 127 0)
+			(at 303.5217 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,7 +12133,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.252 132.588 0)
+			(at 303.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12142,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS132"
-			(at 238.252 132.588 0)
+			(at 303.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,7 +12151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.252 132.588 0)
+			(at 303.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +12915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 42.291 0)
 			(effects
 				(font
@@ -12878,7 +12942,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 42.291 0)
 			(effects
 				(font
@@ -13283,7 +13347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 54.991 0)
 			(effects
 				(font
@@ -13310,7 +13374,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 54.991 0)
 			(effects
 				(font
@@ -13475,7 +13539,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 262.382 169.672 270)
+		(at 265.1564 169.6706 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13483,7 +13547,7 @@
 		(dnp no)
 		(uuid "3c00b8d5-82a4-4c09-a2b2-4b2440634bc8")
 		(property "Reference" "R66"
-			(at 266.065 168.402 90)
+			(at 268.8394 168.4006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,15 +13555,15 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 262.382 169.672 90)
+			(at 265.1564 169.6706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 262.382 169.672 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 265.1564 169.6706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13508,7 +13572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.382 169.672 0)
+			(at 265.1564 169.6706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13517,7 +13581,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.382 169.672 0)
+			(at 265.1564 169.6706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,8 +13589,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
-			(at 262.382 169.672 0)
+		(property "DigiKey" ""
+			(at 265.1564 169.6706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,7 +14789,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS132")
-		(at 253.492 132.842 0)
+		(at 318.77 66.294 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14734,7 +14798,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d14d307-ca69-4413-8ac0-0900bd8e6b5c")
 		(property "Reference" "IC36"
-			(at 253.4837 125.73 0)
+			(at 318.7617 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14742,7 +14806,7 @@
 			)
 		)
 		(property "Value" "74LS132"
-			(at 253.4837 128.27 0)
+			(at 318.7617 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14750,7 +14814,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 253.492 132.842 0)
+			(at 318.77 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14759,7 +14823,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS132"
-			(at 253.492 132.842 0)
+			(at 318.77 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14768,7 +14832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 253.492 132.842 0)
+			(at 318.77 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 225.298 88.011 0)
 			(effects
 				(font
@@ -15068,7 +15132,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT1K50CT-ND"
+		(property "DigiKey" ""
 			(at 225.298 88.011 0)
 			(effects
 				(font
@@ -15183,7 +15247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.186 88.011 0)
 			(effects
 				(font
@@ -15210,7 +15274,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "BC1007CT-ND"
+		(property "DigiKey" ""
 			(at 218.186 88.011 0)
 			(effects
 				(font
@@ -15461,7 +15525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.186 75.311 0)
 			(effects
 				(font
@@ -15488,7 +15552,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "399-13930-1-ND"
+		(property "DigiKey" ""
 			(at 218.186 75.311 0)
 			(effects
 				(font
@@ -15539,7 +15603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 371.2972 201.93 0)
 			(effects
 				(font
@@ -16288,7 +16352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 34.671 0)
 			(effects
 				(font
@@ -16315,7 +16379,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 34.671 0)
 			(effects
 				(font
@@ -16341,7 +16405,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 260.096 52.451 270)
+		(at 279.0264 52.4585 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16349,7 +16413,7 @@
 		(dnp no)
 		(uuid "90a8dd75-0ce7-4eba-a4a8-d2769a70ae6a")
 		(property "Reference" "R26"
-			(at 263.779 51.181 90)
+			(at 282.7094 51.1885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16357,15 +16421,15 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 260.096 52.451 90)
+			(at 279.0264 52.4585 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 260.096 52.451 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 279.0264 52.4585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,7 +16438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.096 52.451 0)
+			(at 279.0264 52.4585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16383,7 +16447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.096 52.451 0)
+			(at 279.0264 52.4585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16391,8 +16455,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
-			(at 260.096 52.451 0)
+		(property "DigiKey" ""
+			(at 279.0264 52.4585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +16798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 29.591 0)
 			(effects
 				(font
@@ -16761,7 +16825,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 29.591 0)
 			(effects
 				(font
@@ -17851,7 +17915,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 165.608 146.431 270)
+		(at 260.096 49.911 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17859,7 +17923,7 @@
 		(dnp no)
 		(uuid "d0472b10-8c43-4981-9e03-c75dfdbd5ff6")
 		(property "Reference" "R12"
-			(at 165.608 143.764 90)
+			(at 260.096 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17867,15 +17931,15 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 165.608 146.431 90)
+			(at 260.096 49.911 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 165.608 146.431 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 260.096 49.911 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17884,7 +17948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.608 146.431 0)
+			(at 260.096 49.911 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17893,7 +17957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.608 146.431 0)
+			(at 260.096 49.911 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17902,7 +17966,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT22R0CT-ND"
-			(at 165.608 146.431 0)
+			(at 260.096 49.911 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18083,7 +18147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 37.211 0)
 			(effects
 				(font
@@ -18110,7 +18174,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 37.211 0)
 			(effects
 				(font
@@ -18159,7 +18223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 44.831 0)
 			(effects
 				(font
@@ -18186,7 +18250,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 44.831 0)
 			(effects
 				(font
@@ -18278,7 +18342,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS132")
-		(at 223.012 132.588 0)
+		(at 288.29 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18287,7 +18351,7 @@
 		(fields_autoplaced yes)
 		(uuid "d90d9666-8d88-4c5b-97f7-442f9b95e572")
 		(property "Reference" "IC36"
-			(at 223.0037 125.476 0)
+			(at 288.2817 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18295,7 +18359,7 @@
 			)
 		)
 		(property "Value" "74LS132"
-			(at 223.0037 128.016 0)
+			(at 288.2817 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18303,7 +18367,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 223.012 132.588 0)
+			(at 288.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18312,7 +18376,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS132"
-			(at 223.012 132.588 0)
+			(at 288.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18321,7 +18385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.012 132.588 0)
+			(at 288.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18815,7 +18879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 32.131 0)
 			(effects
 				(font
@@ -18842,7 +18906,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 32.131 0)
 			(effects
 				(font
@@ -19141,7 +19205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 39.751 0)
 			(effects
 				(font
@@ -19168,7 +19232,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 39.751 0)
 			(effects
 				(font
@@ -19625,7 +19689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 260.096 57.531 0)
 			(effects
 				(font
@@ -19652,7 +19716,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 57.531 0)
 			(effects
 				(font

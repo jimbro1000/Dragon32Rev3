@@ -3089,7 +3089,7 @@
 			)
 		)
 	)
-	(global_label "~{RAS0}"
+	(global_label "~{RAS}"
 		(shape input)
 		(at 137.1092 183.1848 0)
 		(fields_autoplaced yes)
@@ -3101,7 +3101,7 @@
 		)
 		(uuid "c14f2087-e98d-421d-b42a-408da5857144")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.1384 183.1848 0)
+			(at 143.0083 183.1848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
