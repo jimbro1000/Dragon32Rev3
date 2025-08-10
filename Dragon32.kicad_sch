@@ -6227,6 +6227,48 @@
 		)
 	)
 	(sheet
+		(at 299.72 210.82)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "456fd293-ccca-42ce-add5-ba165ae3659c")
+		(property "Sheetname" "Serial"
+			(at 299.72 210.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial.kicad_sch"
+			(at 299.72 229.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Dragon32"
+				(path "/0c3dceba-7c95-4b3d-b590-0eb581444beb"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 267.208 184.15)
 		(size 28.829 19.558)
 		(exclude_from_sim no)

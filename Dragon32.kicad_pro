@@ -81,6 +81,14 @@
           ""
         ],
         [
+          "silk_edge_clearance|74369250|137605800|df77efec-8f6b-4ab1-a9f4-a4fc5916614c|9323cdfd-e08d-4d83-b697-02950e1e06b6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|74369277|117605800|df77efec-8f6b-4ab1-a9f4-a4fc5916614c|41d70c07-52b4-4f05-8d72-b334a03c5601",
+          ""
+        ],
+        [
           "silk_edge_clearance|74369278|117188000|df77efec-8f6b-4ab1-a9f4-a4fc5916614c|0d3818a7-4550-4541-81fa-45f62331b55d",
           ""
         ],
@@ -783,6 +791,10 @@
     [
       "d9dba8db-e731-4cb4-b2de-fefd65b288bc",
       "VIDEO"
+    ],
+    [
+      "456fd293-ccca-42ce-add5-ba165ae3659c",
+      "Serial"
     ]
   ],
   "text_variables": {}
