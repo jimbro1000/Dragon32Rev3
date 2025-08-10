@@ -6115,10 +6115,6 @@
 		(uuid "29ab4dc4-677b-4428-95af-38c611f767c4")
 	)
 	(no_connect
-		(at 394.8176 241.808)
-		(uuid "2c4a900c-f13c-447e-b43f-d5275a99b4c2")
-	)
-	(no_connect
 		(at 259.842 179.832)
 		(uuid "2dc6d9ef-0fd9-4793-92bf-0992542b61b0")
 	)
@@ -6129,14 +6125,6 @@
 	(no_connect
 		(at 259.842 182.372)
 		(uuid "4dee787e-f125-4f1d-87cf-9fe4d411e570")
-	)
-	(no_connect
-		(at 379.5776 244.348)
-		(uuid "6109c663-4f5a-4b3c-9543-39471569b4a9")
-	)
-	(no_connect
-		(at 379.5776 239.268)
-		(uuid "630c49d4-9254-44c3-a92c-c4048096c3e4")
 	)
 	(no_connect
 		(at 259.842 184.912)
@@ -14953,129 +14941,6 @@
 				(path "/0c3dceba-7c95-4b3d-b590-0eb581444beb/c0eaba02-6b8d-4a7f-b51d-5746c573781a"
 					(reference "#PWR0154")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS02")
-		(at 387.1976 241.808 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "655fd23a-5700-43fc-9cea-039530cf1a4a")
-		(property "Reference" "IC31"
-			(at 387.1976 233.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS02N"
-			(at 387.1976 235.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 387.1976 241.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
-			(at 387.1976 241.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 387.1976 241.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "296-1627-5-ND"
-			(at 387.1976 241.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SA2120" "Sheet 1 (spare)"
-			(at 387.1976 241.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc888c15-982f-47ad-953c-6d92ea50d346")
-		)
-		(pin "2"
-			(uuid "f697abd1-da09-4adb-9494-18dfd4969b62")
-		)
-		(pin "3"
-			(uuid "0bd885a4-358b-4df2-9565-caf8dcbbcc6b")
-		)
-		(pin "4"
-			(uuid "191b6b3c-8f5c-47d8-8d4a-d1287908d84c")
-		)
-		(pin "5"
-			(uuid "14d3ebd4-2ca2-4ad7-8cdd-055a75103b87")
-		)
-		(pin "6"
-			(uuid "a3c740a1-a36f-4b51-b569-85788b8d740b")
-		)
-		(pin "10"
-			(uuid "d9a1571e-b416-4603-90ee-6b595c4d0b63")
-		)
-		(pin "8"
-			(uuid "c221d7c5-d8cb-44d7-9e7f-80b3ca40db91")
-		)
-		(pin "9"
-			(uuid "012a71cd-25c3-4e96-bdd7-70016ccd7d84")
-		)
-		(pin "11"
-			(uuid "9b94b0ab-b843-41d5-b196-2c4d2f3d852e")
-		)
-		(pin "12"
-			(uuid "4fd247ae-d7ec-462b-ab30-dcada61be7e6")
-		)
-		(pin "13"
-			(uuid "253640d4-bff1-4a5a-96b9-5bcd66510130")
-		)
-		(pin "14"
-			(uuid "70559390-39cb-4975-b758-a8f97d4f2f15")
-		)
-		(pin "7"
-			(uuid "ec7b1b55-ed72-4857-9c21-635f14827564")
-		)
-		(instances
-			(project "Dragon32"
-				(path "/0c3dceba-7c95-4b3d-b590-0eb581444beb/c0eaba02-6b8d-4a7f-b51d-5746c573781a"
-					(reference "IC31")
-					(unit 2)
 				)
 			)
 		)
