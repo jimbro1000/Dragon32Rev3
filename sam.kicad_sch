@@ -6029,6 +6029,12 @@
 		(uuid "5b159f96-09e8-428c-bf4d-5f455a93ca04")
 	)
 	(junction
+		(at 112.903 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62973fa1-cd54-481a-8dba-d363f673eb17")
+	)
+	(junction
 		(at 89.789 163.576)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6063,6 +6069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a50bf3ac-7b96-4c09-844e-a29d65df0eab")
+	)
+	(junction
+		(at 105.4417 195.7201)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f138fe-f639-46fd-adfc-4c9aca493508")
 	)
 	(junction
 		(at 66.929 85.344)
@@ -6186,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 89.789 193.167) (xy 91.313 193.167)
+			(xy 89.789 193.167) (xy 90.2017 193.1801)
 		)
 		(stroke
 			(width 0)
@@ -6313,6 +6325,16 @@
 			(type default)
 		)
 		(uuid "2a470f8c-9bac-422e-82aa-01f8e20413e5")
+	)
+	(wire
+		(pts
+			(xy 105.4417 195.7201) (xy 106.553 195.707)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b860f0c-fe23-489e-93b7-04117438c914")
 	)
 	(wire
 		(pts
@@ -6496,7 +6518,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.903 185.42) (xy 112.903 191.897)
+			(xy 112.903 185.42) (xy 112.903 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6553,6 +6575,16 @@
 			(type default)
 		)
 		(uuid "75ab6f49-7c57-4070-8854-1270d15fd9ed")
+	)
+	(wire
+		(pts
+			(xy 115.57 191.77) (xy 112.903 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f99efa-36b4-4df8-8ba5-0f6d518c11bf")
 	)
 	(wire
 		(pts
@@ -6766,6 +6798,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 198.12) (xy 105.4417 195.7201)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f59a48-e1e6-4e2b-ad2c-3ec85eedf617")
+	)
+	(wire
+		(pts
 			(xy 221.742 75.311) (xy 232.156 75.311)
 		)
 		(stroke
@@ -6873,6 +6915,16 @@
 			(type default)
 		)
 		(uuid "da5aa584-3d1f-4872-8b15-2760697063c0")
+	)
+	(wire
+		(pts
+			(xy 112.903 191.77) (xy 112.903 191.897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7c20eb-2569-40f2-a6c5-83725ce8652c")
 	)
 	(wire
 		(pts
@@ -7690,7 +7742,7 @@
 	)
 	(global_label "R{slash}~{W}"
 		(shape input)
-		(at 91.313 198.247 180)
+		(at 90.2017 198.2601 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7700,7 +7752,7 @@
 		)
 		(uuid "1bcdd4f6-0379-413e-8797-78a52599979a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.0095 198.247 0)
+			(at 83.8982 198.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,6 +8774,28 @@
 			)
 		)
 	)
+	(global_label "~{MUX_EN}"
+		(shape input)
+		(at 115.57 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "625b009e-fd43-4f0a-841f-fe03991d055b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3395 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{DSD}"
 		(shape output)
 		(at 259.842 172.212 0)
@@ -9268,6 +9342,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HIGHMEM"
+		(shape output)
+		(at 105.41 198.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84efec07-2530-4d51-8dc9-30cd32f986eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 209.0386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15944,7 +16040,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS02")
-		(at 98.933 195.707 0)
+		(at 97.8217 195.7201 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15954,7 +16050,7 @@
 		(fields_autoplaced yes)
 		(uuid "874d9926-d0ca-4759-922c-3bfaa7161447")
 		(property "Reference" "IC31"
-			(at 98.933 187.325 0)
+			(at 97.8217 187.3381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15962,7 +16058,7 @@
 			)
 		)
 		(property "Value" "74LS02N"
-			(at 98.933 189.865 0)
+			(at 97.8217 189.8781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15970,7 +16066,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 98.933 195.707 0)
+			(at 97.8217 195.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15979,7 +16075,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
-			(at 98.933 195.707 0)
+			(at 97.8217 195.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15988,7 +16084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 98.933 195.707 0)
+			(at 97.8217 195.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15997,7 +16093,7 @@
 			)
 		)
 		(property "DigiKey" "296-1627-5-ND"
-			(at 98.933 195.707 0)
+			(at 97.8217 195.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16006,7 +16102,7 @@
 			)
 		)
 		(property "SA2120" "Sheet 1 (spare)"
-			(at 98.933 195.707 0)
+			(at 97.8217 195.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
