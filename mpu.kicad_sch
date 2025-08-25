@@ -5490,15 +5490,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 168.148 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0d17e3f6-2a8f-4f60-9640-673bb1077bc9")
 		)

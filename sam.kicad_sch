@@ -11805,15 +11805,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 35.433 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "971c033b-cbe0-4082-8fef-de8438f83918")
 		)
@@ -12021,7 +12012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 240.157 155.829 0)
 			(effects
 				(font
@@ -12049,6 +12040,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.236 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1711"
 			(at 237.236 154.686 0)
 			(effects
 				(font
@@ -12125,6 +12125,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1547282"
 			(at 38.1 229.87 0)
 			(effects
 				(font
@@ -12632,15 +12641,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 120.777 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8d5eaaf7-64b3-4a8e-a180-42cccf0437e8")
 		)
@@ -12830,7 +12830,7 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
+		(property "LCSC" "C22374098"
 			(at 35.306 168.91 0)
 			(effects
 				(font
@@ -13028,6 +13028,15 @@
 		)
 		(property "DigiKey" ""
 			(at 260.096 42.291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 260.096 42.291 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,6 +13476,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17561"
+			(at 260.096 54.991 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08330d24-a302-4fa6-92af-7fcf198366d5")
 		)
@@ -13675,6 +13693,15 @@
 		)
 		(property "DigiKey" ""
 			(at 265.1564 169.6706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 265.1564 169.6706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14070,7 +14097,7 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1 (spare)"
+		(property "LCSC" "C22374091"
 			(at 100.838 176.276 0)
 			(effects
 				(font
@@ -14477,15 +14504,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 122.047 166.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6cee6e7c-2dda-4680-9711-6ef54018ffc8")
 		)
@@ -14805,15 +14823,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 78.105 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "92aa8704-5b22-4a00-8201-8890825cd18e")
 		)
@@ -15102,6 +15111,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22843"
+			(at 225.298 88.011 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7451515-8130-47cf-aecb-cbfc0d6faf14")
 		)
@@ -15237,6 +15255,15 @@
 		)
 		(property "DigiKey" ""
 			(at 218.186 88.011 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1663"
+			(at 218.186 88.011 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15522,6 +15549,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1653"
+			(at 218.186 75.311 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69b44c06-8900-448e-ac21-a198ab845403")
 		)
@@ -15555,7 +15591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 373.253 199.263 0)
 			(effects
 				(font
@@ -15583,6 +15619,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.332 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1711"
 			(at 370.332 198.12 0)
 			(effects
 				(font
@@ -16101,7 +16146,7 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1 (spare)"
+		(property "LCSC" "C22374091"
 			(at 97.8217 195.7201 0)
 			(effects
 				(font
@@ -16214,15 +16259,6 @@
 			)
 		)
 		(property "Note" "use general 4164 with suitable timing"
-			(at 120.777 103.251 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SA2120" "Sheet 1"
 			(at 120.777 103.251 0)
 			(effects
 				(font
@@ -16349,6 +16385,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17561"
+			(at 260.096 34.671 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1689c5ba-8c40-453c-9ac5-00179b3e8951")
 		)
@@ -16418,6 +16463,15 @@
 		)
 		(property "DigiKey" ""
 			(at 279.0264 52.4585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 279.0264 52.4585 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,6 +16849,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17561"
+			(at 260.096 29.591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc1439d3-176e-4c94-8794-1ebe8a1cb66d")
 		)
@@ -17069,15 +17132,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 35.433 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "45645492-e57e-493c-bcdd-5cff04c7c03f")
 		)
@@ -17330,15 +17384,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 163.449 103.251 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9463cd35-489d-4e1d-adb5-2a295f5c54bf")
 		)
@@ -17525,15 +17570,6 @@
 			)
 		)
 		(property "Note" "use general 4164 with suitable timing"
-			(at 163.449 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SA2120" "Sheet 1"
 			(at 163.449 42.545 0)
 			(effects
 				(font
@@ -17926,8 +17962,17 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT22R0CT-ND"
+		(property "DigiKey" ""
 			(at 260.096 49.911 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 260.096 49.911 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18144,6 +18189,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17561"
+			(at 260.096 37.211 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2850fb4-4bb0-48a3-a010-9362f9d2395c")
 		)
@@ -18213,6 +18267,15 @@
 		)
 		(property "DigiKey" ""
 			(at 260.096 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 260.096 44.831 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18678,15 +18741,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 78.105 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5ea2dbae-7331-425b-8f29-d5ad26fd82c7")
 		)
@@ -18869,6 +18923,15 @@
 		)
 		(property "DigiKey" ""
 			(at 260.096 32.131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 260.096 32.131 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19202,6 +19265,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17561"
+			(at 260.096 39.751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "112e3711-ca58-4407-a4eb-a84377430e7c")
 		)
@@ -19279,15 +19351,6 @@
 			)
 		)
 		(property "Alt Value" "SN74LS783N"
-			(at 244.856 60.071 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SA2120" "Sheet 1"
 			(at 244.856 60.071 0)
 			(effects
 				(font
@@ -19679,6 +19742,15 @@
 		)
 		(property "DigiKey" ""
 			(at 260.096 57.531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 260.096 57.531 90)
 			(effects
 				(font
 					(size 1.27 1.27)

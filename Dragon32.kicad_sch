@@ -5369,6 +5369,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5209"
+			(at 98.425 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7938d910-5d42-484e-8344-927d79a72825")
 		)
@@ -5996,7 +6005,7 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1 (spare)"
+		(property "LCSC" "C22374091"
 			(at 65.913 49.911 0)
 			(effects
 				(font

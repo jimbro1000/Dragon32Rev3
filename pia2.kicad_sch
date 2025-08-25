@@ -7619,6 +7619,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C896866"
+			(at 382.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dea5663d-4f91-4712-bb98-caafff8c293c")
 		)
@@ -10679,7 +10688,7 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1 (spare)"
+		(property "LCSC" "C22374091"
 			(at 115.824 46.482 0)
 			(effects
 				(font
@@ -11070,6 +11079,15 @@
 			)
 		)
 		(property "DigiKey" "296-1398-5-ND"
+			(at 175.006 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5209"
 			(at 175.006 44.45 0)
 			(effects
 				(font
