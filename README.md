@@ -38,8 +38,9 @@ design for Stewart Orchard's upgrade board and GAL design.
 
 ## Progress ##
 
-In the current state (3.0) none of the board is tested except
-for the additional audio capabilities.
+In the current state (3.3) most of the board is tested except
+for the additional audio capabilities, SAMx8 compatibility and
+the logic controlled switching of keyboard configuration.
 
 ## Modifications ##
 
@@ -74,6 +75,13 @@ then be fitted and should work without further alteration.
 The required JED file for the GAL22V10 that drives the memory
 banking is in the CPLD folder of the project.
 
+The 256K upgrade can be replaced with a SAMx8 upgrade board.
+This replaces the SAM chip and the tristate buffer that sits
+between the RAM and the CPU, and also allows connection to
+the second data path that goes to the VDG. With this in place
+the DRAM (either 4164 or 41256) is redundant, as is the GAL 
+that provides the 256K banker capability.
+
 ### Video Port ###
 
 The board includes a third connector for the video mezzanine
@@ -97,6 +105,15 @@ and new methods of sound generation to create more noise!
 Theoretically other sound generators could be used but the AY
 option provides a cheap, capable mechanism that follows a 
 standard familiar to users of other computers from the era.
+
+### Keyboard ###
+
+The board places a GAL chip between the input register of
+PIA 1 and the keyboard connector. The GAL could be ommitted
+and jumpers used to hardwire the connections to either
+Dragon or CoCo compatibility.
+
+With a GAL in place the wiring is controlled by a jumper.
 
 ## Substitutions ##
 

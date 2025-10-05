@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "7289f181-37b2-4a44-b317-42f401cdec48")
 	(paper "A4")
+	(title_block
+		(title "Dragon CPU UK Revised")
+		(date "2025-10-05")
+		(rev "3.3")
+		(comment 1 "Redesign by Julian Brown")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -3367,6 +3373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17673"
+			(at 250.19 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fb672ef-b61e-4f9f-9fac-6fd6678b35a1")
 		)
@@ -3721,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 201.93 109.22 0)
 			(effects
 				(font
@@ -3748,7 +3763,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-1140-1-ND"
+		(property "DigiKey" ""
 			(at 201.93 109.22 0)
 			(effects
 				(font
@@ -3757,7 +3772,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "MBK0805X7R104K500NT"
+		(property "LCSC" "C1711"
 			(at 201.93 109.22 0)
 			(effects
 				(font
@@ -3807,7 +3822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -3834,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-1140-1-ND"
+		(property "DigiKey" ""
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -3843,7 +3858,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "MBK0805X7R104K500NT"
+		(property "LCSC" "C1711"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -3895,7 +3910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -3922,7 +3937,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-1140-1-ND"
+		(property "DigiKey" ""
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -3931,7 +3946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "MBK0805X7R104K500NT"
+		(property "LCSC" "C1711"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -4396,7 +4411,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 222.25 26.67 90)
 			(effects
 				(font
@@ -4404,7 +4419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 219.71 24.13 0)
 			(effects
 				(font
@@ -4424,6 +4439,15 @@
 		)
 		(property "Description" ""
 			(at 219.71 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1711"
+			(at 219.71 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -4498,7 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-1140-1-ND"
+		(property "DigiKey" ""
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -4507,7 +4531,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "MBK0805X7R104K500NT"
+		(property "LCSC" "C1711"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -4799,6 +4823,15 @@
 		)
 		(property "DigiKey" "CF14JT4K70CT-ND"
 			(at 250.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 250.19 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 200.66 92.71 0)
 			(effects
 				(font
@@ -5304,7 +5337,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-1140-1-ND"
+		(property "DigiKey" ""
 			(at 200.66 92.71 0)
 			(effects
 				(font
@@ -5313,7 +5346,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "MBK0805X7R104K500NT"
+		(property "LCSC" "C1711"
 			(at 200.66 92.71 0)
 			(effects
 				(font

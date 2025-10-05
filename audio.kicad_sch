@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "a795179d-93f2-4c6c-a7a6-757685266708")
 	(paper "A4")
+	(title_block
+		(title "Dragon CPU UK Revised")
+		(date "2025-10-05")
+		(rev "3.3")
+		(comment 1 "Redesign by Julian Brown")
+	)
 	(lib_symbols
 		(symbol "74xx:74LS04"
 			(exclude_from_sim no)
@@ -2719,6 +2725,14 @@
 		(uuid "1e489a3e-2761-4a44-9f7f-fc1daff828eb")
 	)
 	(no_connect
+		(at 170.18 123.19)
+		(uuid "2ae4e614-2d51-4236-b426-9b356eb65435")
+	)
+	(no_connect
+		(at 170.18 137.16)
+		(uuid "50443893-52d9-4da8-be31-8352d46b5476")
+	)
+	(no_connect
 		(at 49.53 74.93)
 		(uuid "68652557-af32-4574-a5c9-9445cbad77da")
 	)
@@ -2789,6 +2803,16 @@
 			(type default)
 		)
 		(uuid "102b5c66-9414-42c4-a00c-bc378a11229c")
+	)
+	(wire
+		(pts
+			(xy 128.27 120.65) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162d5537-e685-4d44-a6ab-de4a137c753e")
 	)
 	(wire
 		(pts
@@ -2900,28 +2924,6 @@
 		)
 		(uuid "fcde7288-1dbd-4a5c-a89c-167361ddfee5")
 	)
-	(global_label "~{P1d}"
-		(shape input)
-		(at 130.81 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a32d264-3d50-4164-9ad1-96ca247b57bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.8505 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D4"
 		(shape input)
 		(at 49.53 52.07 180)
@@ -2944,24 +2946,24 @@
 			)
 		)
 	)
-	(global_label "BC11"
-		(shape output)
-		(at 170.18 137.16 0)
+	(global_label "~{P1d}"
+		(shape input)
+		(at 130.81 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "280c88e7-0533-4e1c-a6ad-cf066e4f8875")
+		(uuid "14a8617d-0cf0-4c77-be0a-c978f7420d83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.47 137.16 0)
+			(at 124.8505 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3111,28 +3113,6 @@
 		(uuid "5fffe570-5faf-466d-9f4e-41a11c40970c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.7195 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{P1c}"
-		(shape input)
-		(at 130.81 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62305368-2cae-44fc-b5fe-dd615ca929fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9109 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,28 +3474,6 @@
 			)
 		)
 	)
-	(global_label "BDIR1"
-		(shape output)
-		(at 170.18 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb4a8efc-0fc0-4751-8c8b-1b857ab5441a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.1353 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUT_C"
 		(shape output)
 		(at 127 39.37 180)
@@ -3656,6 +3614,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22394768"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -3841,6 +3808,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22394768"
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ef62110-f137-41e7-a85b-8256c0196d1e")
 		)
@@ -3939,6 +3915,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22394768"
 			(at 156.21 175.26 0)
 			(effects
 				(font
@@ -4183,6 +4168,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22374093"
+			(at 270.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "f791d07b-ef8e-4a88-b257-029e39df0328")
 		)
@@ -4279,6 +4273,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 270.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374093"
 			(at 270.51 142.24 0)
 			(effects
 				(font
@@ -4391,6 +4394,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22394768"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1aefea86-f06b-4532-9b6f-6a04bc384433")
 		)
@@ -4487,6 +4499,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374093"
 			(at 138.43 86.36 0)
 			(effects
 				(font
@@ -4858,6 +4879,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 270.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374093"
 			(at 270.51 115.57 0)
 			(effects
 				(font
@@ -5315,6 +5345,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22374093"
+			(at 134.62 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "f791d07b-ef8e-4a88-b257-029e39df032c")
 		)
@@ -5367,6 +5406,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99204cf9-f386-4c39-983b-349d7cb8f1f5")
+		(property "Reference" "#PWR084"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed23ab8-5cd6-4b0f-adf6-6eca1b637e1b")
+		)
+		(instances
+			(project "Dragon32"
+				(path "/0c3dceba-7c95-4b3d-b590-0eb581444beb/73ef4268-4aa5-4086-b2e3-959bfba17059"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS08")
 		(at 162.56 123.19 0)
 		(unit 2)
@@ -5411,6 +5516,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 162.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22394768"
 			(at 162.56 123.19 0)
 			(effects
 				(font
@@ -5662,6 +5776,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22374093"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "f791d07b-ef8e-4a88-b257-029e39df032d")
 		)
@@ -5896,6 +6019,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 270.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374093"
 			(at 270.51 128.27 0)
 			(effects
 				(font
