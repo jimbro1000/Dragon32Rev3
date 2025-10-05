@@ -1,0 +1,49 @@
+Name     KBD22 ;
+PartNo    ;
+Date     05/10/2025 ;
+Revision 01 ;
+Designer J.Brown ;
+Company   ;
+Assembly None ;
+Location  ;
+Device   G22V10;
+
+/*
+  Keyboard switcher for Dragon Rev 3
+  
+  Converts between standard Dragon wiring of 
+  the keyboard matrix and the CoCo wiring
+  depending on the state of mtype on pin 1
+
+  This code is suitable for 16V8 and 22v10
+  devices. For 16V8 the output pins need
+  renumbering down to 19..14
+*/
+
+/* INPUT PINS */
+
+Pin 1 = mtype ;
+Pin 2 = k3 ;
+Pin 3 = k4 ;
+Pin 4 = k6 ;
+Pin 5 = k7 ;
+Pin 6 = k8 ;
+Pin 7 = k9 ;
+
+/* OUTPUT PINS */
+
+Pin 23 = pa0 ;
+Pin 22 = pa1 ;
+Pin 21 = pa2 ;
+Pin 20 = pa3 ;
+Pin 19 = pa4 ;
+Pin 18 = pa5 ;
+
+/* LOGIC */
+
+pa0 = !mtype & k3 # mtype & k8 ;
+pa1 = !mtype & k4 # mtype & k9 ;
+pa2 = !mtype & k6 # mtype & k3 ;
+pa3 = !mtype & k7 # mtype & k4 ;
+pa4 = !mtype & k8 # mtype & k6 ;
+pa5 = !mtype & k9 # mtype & k7 ;
