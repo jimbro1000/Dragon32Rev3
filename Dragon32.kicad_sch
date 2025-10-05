@@ -5,11 +5,10 @@
 	(uuid "0c3dceba-7c95-4b3d-b590-0eb581444beb")
 	(paper "A3")
 	(title_block
-		(title "Dragon 32 CPU UK PAL")
-		(date "2023-05-25")
-		(rev "3.0")
-		(company "Dragon Data")
-		(comment 1 "Recreation by Julian Brown")
+		(title "Dragon CPU UK Revised")
+		(date "2025-10-05")
+		(rev "3.3")
+		(comment 1 "Redesign by Julian Brown")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS02"

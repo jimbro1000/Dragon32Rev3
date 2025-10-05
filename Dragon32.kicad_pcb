@@ -8,11 +8,10 @@
 	)
 	(paper "A3")
 	(title_block
-		(title "Dragon 32/64 CPU UK Rev 3 Mainboard")
-		(date "2025-09-15")
+		(title "Dragon CPU UK Rev 3 Mainboard")
+		(date "2025-10-05")
 		(rev "3.3c")
-		(company "Dragon Data")
-		(comment 1 "Revised and Modified by Julian Brown")
+		(comment 1 "Redesigned by Julian Brown")
 		(comment 2 "Added SAMx8 and UART support")
 	)
 	(layers

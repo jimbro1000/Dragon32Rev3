@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "7289f181-37b2-4a44-b317-42f401cdec48")
 	(paper "A4")
+	(title_block
+		(title "Dragon CPU UK Revised")
+		(date "2025-10-05")
+		(rev "3.3")
+		(comment 1 "Redesign by Julian Brown")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers

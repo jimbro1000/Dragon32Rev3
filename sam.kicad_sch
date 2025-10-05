@@ -5,8 +5,10 @@
 	(uuid "3ff90b12-e647-4ae8-8445-2a97eccc18a5")
 	(paper "A3")
 	(title_block
-		(date "2023-05-25")
-		(rev "3.0")
+		(title "Dragon CPU UK Revised")
+		(date "2025-10-05")
+		(rev "3.3")
+		(comment 1 "Redesign by Julian Brown")
 		(comment 2 "Reposition dram and buffer")
 	)
 	(lib_symbols
